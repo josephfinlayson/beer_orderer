@@ -2,8 +2,8 @@
 
 from gpiozero import Button
 
-lucy_beer_button = Button(10)
-joe_beer_button = Button(10)
+lucy_beer_button = Button(23)
+joe_beer_button = Button(18)
 
 def lucy_press():
  # call twilio
